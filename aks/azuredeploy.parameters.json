@@ -1,0 +1,27 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+        "resourceName": {
+			"value": "<name for aks cluster resource>"
+		},
+		"dnsPrefix": {
+			"value": "<unique dns prefix>"
+		},
+		"agentVMSize": {
+			"value": "Standard_D2_v2"
+		},
+		"linuxAdminUsername": {
+			"value": "<admin user name>"
+		},
+		"sshRSAPublicKey": {
+			"value": "<your public ssh key>"
+		},
+		"servicePrincipalClientId": {
+			"value": "<your service principal client id>"
+		},
+		"servicePrincipalClientSecret": {
+			"value": "<your service principal client secret>"
+		}
+	}
+}
