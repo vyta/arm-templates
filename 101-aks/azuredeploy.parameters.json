@@ -3,25 +3,25 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
         "resourceName": {
-			"value": "<name for aks cluster resource>"
+			"value": "GEN-UNIQUE"
 		},
 		"dnsPrefix": {
-			"value": "<unique dns prefix>"
+			"value": "GEN-UNIQUE"
 		},
 		"agentVMSize": {
 			"value": "Standard_D2_v2"
 		},
 		"linuxAdminUsername": {
-			"value": "<admin user name>"
+			"value": "azureuser"
 		},
 		"sshRSAPublicKey": {
-			"value": "<your public ssh key>"
+			"value": "GEN-SSH-USER"
 		},
 		"servicePrincipalClientId": {
-			"value": "<your service principal client id>"
+			"value": "GEN-GUID"
 		},
 		"servicePrincipalClientSecret": {
-			"value": "<your service principal client secret>"
+			"value": "GEN-UNIQUE"
 		}
 	}
 }
